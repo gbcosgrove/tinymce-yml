@@ -1,0 +1,25 @@
+menubar: false
+content_security_policy: "default-src 'self'"
+browser_spellcheck : true
+paste_merge_formats: true
+paste_retain_style_properties: all
+body_class: tinymce-editor
+toolbar:
+    - formatselect | fontselect | fontsizeselect | bold | italic | underline | strikethrough | alignleft | aligncenter | alignjustify | alignright |
+# toolbar:
+#   toolbar1:
+#     - formatselect | fontselect | fontsizeselect | bold | italic | underline | strikethrough | alignleft | aligncenter | alignjustify | alignright |
+#   toolbar2:
+#     - preview
+plugins:
+  - link
+  - paste
+  - importcss
+  - autolink
+  - lists
+  - wordcount
+  - colorpicker
+  - hr
+  - preview
+  - searchreplace
+  - textcolor
